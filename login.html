@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            font-size: large;
+            padding: 10px auto;
+            width: 100%;
+            background-color: chocolate;
+        }
+
+       /* 
+        .logo {
+            float: left;
+            font-size: 50px;
+        }*/
+
+         .navbar {
+            padding: 10px;
+            display:flex;
+            justify-content: space-between;
+        }
+        .nav-links {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .nav-links li {
+            list-style: none;
+    
+        }
+        .card {
+            display: flex;
+            justify-content:space-evenly;
+            max-width: 1200px;
+            gap: 10px;
+        }
+        .footer {
+            margin-top: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            gap: 1rem;
+            
+        }
+        .footer-links-container {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Logo</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="padding:20px;margin-top:100px;background-color:#1abc9c;">
+    <div >
+        <h1>Fixed Top Navigation Bar</h1>
+        <h2>Scroll this page to see the effect</h2>
+        <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+    <div class="card" style="padding:20px;margin-top:100px;background-color:beige;">
+
+        <div style="background-color: blue; max-width: 1200px; height: 120px;"> <h1>Welcome</h1>Welcome </div>
+        <div style="background-color:red; max-width: 1200px; height: 120px;"><h1>About</h1>About us</div>
+        <div style="background-color: green; max-width: 1200px; height: 120px;"><h1>Contact</h1>Contact</div>
+        <!-- <div id="abt" style="background-color: red; width: 1200px; height: 1200px; font-size: 100px;">About</div>   -->
+    </div>
+    </div>
+</section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <ul class="footer-links-container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+        <p class="small-text">Made with <span class="heart-icon">♥︎</span> in London</p>
+    </footer>
+
+</body>
+
+</html>
