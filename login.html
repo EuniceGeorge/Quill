@@ -46,6 +46,18 @@
             max-width: 1200px;
             gap: 10px;
         }
+        .item {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            flex-wrap: wrap;
+        }
+
         .footer {
             margin-top: 10rem;
             display: flex;
@@ -77,9 +89,9 @@
         </nav>
     </header>
 
-    <section style="padding:20px;margin-top:100px;background-color:#1abc9c;">
+    <section style="margin-top:100px;background-color:#1abc9c;">
     <div >
-        <h1>Fixed Top Navigation Bar</h1>
+        <!-- <h1>Fixed Top Navigation Bar</h1> -->
         <h2>Scroll this page to see the effect</h2>
         <h2>The navigation bar will stay at the top of the page while scrolling</h2>
 
@@ -92,14 +104,16 @@
         <p>Some text some text some text some text..</p>
         <p>Some text some text some text some text..</p>
         <p>Some text some text some text some text..</p>
+    </section>
+
     <div class="card" style="padding:20px;margin-top:100px;background-color:beige;">
-        <div style="background-color: blue; max-width: 1200px; height: 120px;"> <h1>Welcome</h1>Welcome </div>
-        <div style="background-color:red; max-width: 1200px; height: 120px;"><h1>About</h1>About us</div>
-        <div style="background-color: green; max-width: 1200px; height: 120px;"><h1>Contact</h1>Contact</div>
+        <div class="item" style="background-color: blue; "><h1> Welcome</h1>Welcome </div>
+        <div class="item" style="background-color:red; "><h1> Welcome</h1>About us</div>
+        <div class="item" style="background-color: green; "><h1> Welcome</h1>Contact</div>
         <!-- <div id="abt" style="background-color: red; width: 1200px; height: 1200px; font-size: 100px;">About</div>   -->
     </div>
     </div>
-</section>
+
     <!-- FOOTER -->
     <footer class="footer">
         <ul class="footer-links-container">
