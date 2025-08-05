@@ -251,12 +251,10 @@ span {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     gap: 1rem;
     margin-bottom: 20rem;
     height: var(--nav-height);
-
-
 }
 
 .nav-btn-container {
@@ -296,9 +294,22 @@ span {
     gap: 1.5rem;
 }
 
-/* ***************** feature **************** */
+/* ***************** Feature Section**************** */
 .features-section {
     margin-bottom: 30rem;
+}
+.features-grid-container {
+    display: grid;  
+    row-gap: 15rem;
+    column-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.feature-img-swap-order {
+    grid-row: 2 / 3;
+    grid-column: 1 /2;
 
 }
 
@@ -309,6 +320,7 @@ span {
 
 .feature-headings {
     margin-bottom: 2rem;
+    color: white;
 }
 
 .feature-img {
@@ -335,7 +347,7 @@ span {
 
 .cta-heading {
     margin-bottom: 3rem ;
-    color: var(--black);
+    color: var(--white);
 }
 
 /* ------ FOOTER ------ */
